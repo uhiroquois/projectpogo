@@ -75,6 +75,22 @@
         height: auto;
         width: clamp(100px, 15vw, 120px);
     }
+    .jo {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.3;
+        width: clamp(500px, 10vw, 550px);
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .jo {
+            width: 300px;
+            left: -60px;
+        }
+    }
 
     ::selection {
         background: rgb(177, 5, 28);
@@ -95,16 +111,18 @@
         <br><br><br>
         <div class="text-background">
             <h1>project pogo</h1>
-            <p class="subtitle">home of good, bad, and unfinished ideas</p>
+            <p class="subtitle">home of good, bad, and unfinished ideas</p>    
         </div>
+        
     </header>
 
     <main>
         <br>
         <p class="text-background">Nothing for now</p>
+        <br>
         <img src="https://i.ibb.co/RGR3M8Qv/lastspinningdino.gif" alt="spinningdinosaur" border="0" class="dino">
         
-    
+             <img src="https://i.ibb.co/ytMgbjB/jo.png" alt="jo" border="0" class="jo"> 
     </main>
 
     <footer class="text-background">
