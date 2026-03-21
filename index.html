@@ -31,15 +31,15 @@
     header {
     text-align: center;
       font-family: Montserrat;
-      margin-top: 250px;
-      font-size: 25px;
+      margin-top: clamp(80px, 15vw, 250px);
+      font-size: clamp(20px, 5vw, 40px);
     }
 
     .subtitle {
         font-size: 0.55em;
-        margin-top: -10px;
+        margin-top: -0.5em;
         font-family: 'Cascadia Mono';
-        margin-bottom: 40px;
+        margin-bottom: clamp(20px, 3vw, 40px);
         color: rgb(148, 6, 25);
     }
 
@@ -73,7 +73,7 @@
         margin: 0 auto;
         max-width: 100%;
         height: auto;
-        width: 150px;
+        width: clamp(100px, 20vw, 300px);
     }
 
     ::selection {
