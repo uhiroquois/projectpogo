@@ -83,12 +83,28 @@
         opacity: 0.3;
         width: clamp(500px, 10vw, 550px);
         height: auto;
+        display: block;
+    }
+
+    .duck {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.3;
+        width: clamp(450px, 10vw, 500px);
+        height: auto;
+        display: block;
     }
 
     @media (max-width: 768px) {
         .jo {
             width: 300px;
             left: -60px;
+        }
+        .duck {
+            width: 250px;
+            right: -60px;
         }
     }
 
@@ -123,6 +139,7 @@
         <img src="https://i.ibb.co/RGR3M8Qv/lastspinningdino.gif" alt="spinningdinosaur" border="0" class="dino">
         
              <img src="https://i.ibb.co/ytMgbjB/jo.png" alt="jo" border="0" class="jo"> 
+             <img src="https://i.ibb.co/FLxWsf0J/2026-03-22-01e-Kleki-1.png" alt="duck" border="0" class="duck">
     </main>
 
     <footer class="text-background">
