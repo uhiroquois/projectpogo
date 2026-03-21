@@ -31,16 +31,16 @@
     header {
     text-align: center;
       font-family: Montserrat;
-      margin-top: 250px;
-      font-size: 25px;
+      margin-top: clamp(100px, 20vh, 400px);
+      font-size: clamp(18px, 4vw, 24px);
     }
 
     .subtitle {
         font-size: 0.55em;
-        margin-top: -10px;
+        margin-top: -0.625rem;
         font-family: 'Cascadia Mono';
-        margin-bottom: 40px;
-        color: rgb(148, 6, 25);
+        margin-bottom: 2.5rem;
+        color: rgb(148, 6, 20);
     }
 
     main {
@@ -64,7 +64,7 @@
       background-color: rgba(0, 0, 0, 0.3);
       width: 100%;
       display: block;
-      padding: 10px 10px;
+      padding: 0.625rem 0.625rem;
       text-align: center;
     }
 
@@ -73,7 +73,7 @@
         margin: 0 auto;
         max-width: 100%;
         height: auto;
-        width: 150px;
+        width: clamp(100px, 15vw, 120px);
     }
 
     ::selection {
@@ -83,7 +83,7 @@
     footer {
         text-align: center;
         font-family: 'Cascadia Mono';
-        font-size: small;
+        font-size: 0.8em;
         color: rgb(148, 6, 25);
     }
 
@@ -92,6 +92,7 @@
 
 <body>
     <header>
+        <br><br><br>
         <div class="text-background">
             <h1>project pogo</h1>
             <p class="subtitle">home of good, bad, and unfinished ideas</p>
@@ -101,8 +102,8 @@
     <main>
         <br>
         <p class="text-background">Nothing for now</p>
-        <br>
         <img src="https://i.ibb.co/RGR3M8Qv/lastspinningdino.gif" alt="spinningdinosaur" border="0" class="dino">
+        
     
     </main>
 
